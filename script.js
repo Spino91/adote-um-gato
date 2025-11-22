@@ -8,7 +8,7 @@ const cats = [
     sex: 'Fêmea',
     color: 'Tigrada',
     behavior: 'calma, carinhosa',
-    img: 'https://placekitten.com/400/300',
+    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/luna.jpg',
     description: 'Luna é brincalhona, se dá bem com crianças e está vermifugada.'
   },
   {
@@ -18,7 +18,7 @@ const cats = [
     sex: 'Macho',
     color: 'Branco e Preto',
     behavior: 'tímido, tranquilo',
-    img: 'https://placekitten.com/401/301',
+    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/oscar.jpg',
     description: 'Oscar prefere ambientes tranquilos e precisa de um lar paciente.'
   },
   {
@@ -28,7 +28,7 @@ const cats = [
     sex: 'Macho',
     color: 'Cinza',
     behavior: 'ativa, carinhosa',
-    img: 'https://placekitten.com/402/302',
+    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/theodoro.jpg',
     description: 'Theo adora brincar com bolinhas e se dá bem com outros gatos.'
   },
   {
@@ -38,7 +38,7 @@ const cats = [
     sex: 'Macho',
     color: 'Laranja',
     behavior: 'calmo, dorminhoco',
-    img: 'https://placekitten.com/403/303',
+    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/tigrao.jpg',
     description: 'Tigrão é um senhorzinho tranquilo que adora colo.'
   }
 ];
