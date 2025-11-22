@@ -1,5 +1,4 @@
 
-// Dados de exemplo — substitua por dados reais
 const cats = [
   {
     id: 'gato-001',
@@ -75,7 +74,6 @@ function renderCards(list){
     cardsContainer.appendChild(li);
   });
 
-  // attach events
   document.querySelectorAll('[data-id]').forEach(btn => {
     btn.addEventListener('click', e => {
       const id = e.currentTarget.getAttribute('data-id');
@@ -87,7 +85,7 @@ function renderCards(list){
     btn.addEventListener('click', e => {
       const id = e.currentTarget.getAttribute('data-interest');
       prefillContact(id);
-      // scroll to contact form
+
       document.getElementById('contato').scrollIntoView({behavior:'smooth'});
     });
   });
@@ -126,7 +124,6 @@ modal.addEventListener('click', (e) => {
   if (e.target === modal) modal.setAttribute('aria-hidden','true');
 });
 
-// Filters & search
 function applyFilters(){
   const sex = filterSex.value;
   const age = filterAge.value;
@@ -151,7 +148,6 @@ search.addEventListener('input', () => {
   window._searchTimer = setTimeout(applyFilters, 180);
 });
 
-// Contact form
 const contactForm = document.getElementById('contact-form');
 const feedback = document.getElementById('form-feedback');
 
@@ -160,13 +156,11 @@ function prefillContact(id){
   if (!item) return;
   const msg = `Tenho interesse em adotar o gato "${item.name}" (ID: ${item.id}). Por favor, entrem em contato.`;
   document.getElementById('mensagem').value = msg;
-  // focus name field
   document.getElementById('nome').focus();
 }
 
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  // Simple validation
   const nome = document.getElementById('nome').value.trim();
   const email = document.getElementById('email').value.trim();
   const mensagem = document.getElementById('mensagem').value.trim();
@@ -176,13 +170,9 @@ contactForm.addEventListener('submit', (e) => {
     return;
   }
 
-  // Here you would integrate with backend or email service.
-  // For now we simulate success.
   feedback.hidden = false;
   feedback.textContent = 'Formulário enviado com sucesso! A ONG entrará em contato.';
   contactForm.reset();
 });
 
-
-// Inicializa
 renderCards(cats);
