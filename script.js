@@ -143,7 +143,7 @@ function applyFilters(){
 filterSex.addEventListener('change', applyFilters);
 filterAge.addEventListener('change', applyFilters);
 search.addEventListener('input', () => {
-  // small debounce
+
   clearTimeout(window._searchTimer);
   window._searchTimer = setTimeout(applyFilters, 180);
 });
