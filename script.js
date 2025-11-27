@@ -1,4 +1,3 @@
-
 const cats = [
   {
     id: 'gato-001',
@@ -7,7 +6,7 @@ const cats = [
     sex: 'Fêmea',
     color: 'Tigrada',
     behavior: 'calma, carinhosa',
-    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/luna.jpg',
+    img: 'images/luna.jpg',
     description: 'Luna é brincalhona, se dá bem com crianças e está vermifugada.'
   },
   {
@@ -17,7 +16,7 @@ const cats = [
     sex: 'Macho',
     color: 'Branco e Preto',
     behavior: 'tímido, tranquilo',
-    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/oscar.jpg',
+    img: 'images/oscar.jpg',
     description: 'Oscar prefere ambientes tranquilos e precisa de um lar paciente.'
   },
   {
@@ -27,7 +26,7 @@ const cats = [
     sex: 'Macho',
     color: 'Cinza',
     behavior: 'ativa, carinhosa',
-    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/theodoro.jpg',
+    img: 'images/theodoro.jpg',
     description: 'Theo adora brincar com bolinhas e se dá bem com outros gatos.'
   },
   {
@@ -37,7 +36,7 @@ const cats = [
     sex: 'Macho',
     color: 'Laranja',
     behavior: 'calmo, dorminhoco',
-    img: 'https://github.com/Spino91/adote-um-gato/blob/main/images/tigrao.jpg',
+    img: 'images/tigrao.jpg',
     description: 'Tigrão é um senhorzinho tranquilo que adora colo.'
   }
 ];
